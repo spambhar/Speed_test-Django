@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <meta charset="UTF-8">
+    <title>Base</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body bgcolor="#2c2d33">
+<form method="post">
+    {% csrf_token %}
+    <div id="header">
+        <div><img class="icon" height="80px" width="80px" src="{% static 'D.png' %}"></div>
+        <div id="A1">Speedtest</div>
+        <ul>
+            <li><button class="button" id="A3" formaction="home">Home</button></li>
+        <li><button class="button" id="A3" formaction="about">About</button></li>
+        </ul>
+    </div>
+    <div style="height: 500px;">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+    <footer id="F1">
+        <center>
+            <a href="https://twitter.com/SmitPambhar22?s=08" target="_blank"><img class="T5" src="{% static '32.png' %}"></a>
+            <a href="mailto: smitpambhar22@gmail.com" target="_blank"><img class="T5" src="{% static '36.png' %}"></a>
+            <a href="https://www.linkedin.com/in/smit-pambhar-41967618b" target="_blank"><img class="T5" src="{% static '39.png' %}"></a>
+        </center>
+    </footer>
+</form>
+</body>
+</html>

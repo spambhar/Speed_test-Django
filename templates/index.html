@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div align="center" class="div">
+    <table border="0"cellspacing="10">
+        <tr id="A11">
+            <th colspan="2">Download Speed</th>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th colspan="2" >Upload Speed</th>
+        </tr>
+        <tr>
+            <td class="B1">{{ download }}</td>
+            <td class="B2">Mbps</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="B1">{{ upload }}</td>
+            <td class="B2">Mbps</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td> </td>
+            <td id="A11" class="ping">Ping:&nbsp;</td>
+            <td class="B3">{{ ping }}</td>
+            <td class="B4">ms</td>
+            <td> </td>
+        </tr>
+    </table>
+    <table class="B5">
+        <tr>
+            <th>Server: </th>
+            <td>{{ name }}, </td>
+            <td>{{ country }}</td>
+        </tr>
+    </table>
+    <table class="B6">
+        <tr>
+            <th>ISP: </th>
+            <td>{{ isp }} &nbsp;</td>
+            <th>Rating: </th>
+            <td>{{ isprating }}</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,174 @@
+#header {
+    color: whitesmoke;
+    height: 85px;
+    /* background-color: rgb(39, 38, 32);  */
+}
+
+.icon {
+    float: left;
+    margin-left: 140px;
+    margin-right: 25px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #314358;
+    color: #FFF;
+    width: 180px;
+    height: 180px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    border: 15px solid #5f626d;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 150px;
+    /* transition: .4s; */
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background: #425b77;
+    border: 15px solid #797d8b;
+}
+
+#A1 {
+    float: left;
+    margin-left: 25px;
+    font-size: 40px;
+    font-family: Audiowide;
+    padding-top: 8px;
+}
+
+#A3 {
+    font-size: 20px;
+    font-family: Verdana;
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding: 25px;
+    /*margin-right: 140px;*/
+}
+
+#F1 {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: 40px;
+}
+
+#F1 img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    transform: translateY(-90%);
+}
+
+#F1 img:hover {
+    border-radius: 100%;
+    background-color: rgb(76, 85, 92);
+}
+
+#A11 {
+    font-family: monospace;
+    font-size: 40px;
+    color: #eff4ff;
+}
+
+.B1 {
+    font-family: monospace;
+    font-size: 100px;
+    color: #e2f2ac;
+    text-align: right;
+}
+
+.B2 {
+    text-align: left;
+    font-family: Verdana;
+    font-size: 25px;
+    padding-top: 47px;
+    padding-left: 8px;
+    color: #ddeedd;
+}
+
+.B3 {
+    padding-top: 10px;
+    vertical-align: bottom;
+    font-size: 40px;
+    font-family: Verdana, serif;
+    color: #e2f2ac;
+}
+
+.B4 {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    color: #ddeedd;
+    font-size: 25px;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+}
+
+.B5 {
+    font-family: monospace;
+    font-size: 25px;
+    padding-top: 40px;
+    color: #daebe8;
+}
+
+.button {
+    background: none;
+    border: none;
+    width: fit-content;
+}
+
+#A3:hover {
+    color: #3875d7;
+}
+
+.ping {
+    text-align: right;
+    font-size: 35px;
+    vertical-align: bottom;
+}
+
+.B6 {
+    font-family: monospace;
+    font-size: 25px;
+    padding-top: 40px;
+    color: #daebe8;
+}
+
+.div {
+    padding-top: 45px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+.about {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Yu Gothic";
+    width: 80%;
+    margin-left: 140px;
+    padding-top: 30px;
+    border-radius: 10px;
+}

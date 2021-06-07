@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <center>
+        <button formaction="start" class="btn" onclick="show()">GO</button>
+    </center>
+    <center><br><br>
+    <p class="B2" style="text-align: center;display: none"  id="show">Testing Network Speed Please wait for a moment.....</p>
+    </center>
+    <script type="text/javascript">
+        function show(){
+            var x = document.getElementById("show");
+            x.style.display = 'inline';
+        }
+    </script>
+{% endblock %}
+
